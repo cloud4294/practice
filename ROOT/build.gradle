@@ -7,6 +7,14 @@
  * user guide available at https://docs.gradle.org/2.9/userguide/tutorial_java_projects.html
  */
 
+
+apply plugin:'war'
+
+war {
+    baseName = 'movie'
+    version = '0.0.1-SNAPSHOT'
+}
+
 /*
 // Apply the java plugin to add support for Java
 apply plugin: 'war'
